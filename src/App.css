@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+    --clay-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -5px -5px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    --clay-color: rgb(223, 255, 233);
+    --glass-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    --glass-color: rgba(255,255,255,0.5);
+}
+.clay {
+    @apply backdrop-blur-[8px] bg-[var(--clay-color)] border-none rounded-2xl shadow-[var(--clay-shadow)];
+}
+
+.glass {
+    @apply backdrop-blur-[16px] bg-[var(--glass-color)] shadow-[var(--glass-shadow)];
+}
