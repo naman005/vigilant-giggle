@@ -13,7 +13,7 @@ const Grid = () => {
             </div>
             <div className="flex flex-col-reverse justify-center gap-2 py-2 clay">
                 <div className="h-1/3">
-                    <Card title="Component" /> 
+                    <Card title="Tailwind CSS" /> 
                 </div>
                 <div className="h-2/3">
                     <Card title="Output" />
