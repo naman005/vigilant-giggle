@@ -1,6 +1,6 @@
 const Header = ({title}) => {
     return (
-        <div className="glass text-center text-md font-semibold rounded-t-lg w-1/3 h-max py-1 border-solid border-white border-4 border-b-0">
+        <div className="button rounded-t-2xl text-center text-md font-semibold w-1/3 h-max py-2">
             {title}
         </div>
     )

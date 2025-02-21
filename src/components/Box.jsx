@@ -1,6 +1,6 @@
 const Box = () => {
     return (
-        <div className="glass border-4 border-white border-solid rounded-b-2xl rounded-tr-2xl border-t-0 h-full p-2">
+        <div className="clay rounded-b-4xl h-full p-0.5">
             <Playground />
         </div>
     )
@@ -8,7 +8,7 @@ const Box = () => {
 
 const Playground = () => {
     return (
-        <div className="bg-white border-4 border-white border-solid rounded-xl h-full">
+        <div className="input-class h-full">
             
         </div>
     )

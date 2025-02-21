@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
 :root {
-    --clay-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -5px -5px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
-    --clay-color: rgb(223, 255, 233);
-    --glass-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    --glass-color: rgba(255,255,255,0.5);
+    --clay-shadow: inset -0.6em -0.6em 1em #bfd1ff, inset 0.4em 0.4em 0.5em #eff3ff, 0.8em 0.8em 2em #839ad7;
+    --button-shadow: 0 0.5em 1em rgba(47, 107, 255, 0.6), inset 0.1em 0.1em 0.4em #4379ff, inset -0.2em -0.2em .8em #004aff;
+    --input-shadow: inset -0.3em -0.3em 0.6em #bfd1ff, inset 0.2em 0.2em 0.3em #eff3ff, 0.3em 0.3em 1em rgba(131, 154, 215, 0.8);
 }
 .clay {
-    @apply backdrop-blur-[8px] bg-[var(--clay-color)] border-none rounded-2xl shadow-[var(--clay-shadow)];
+    @apply bg-white shadow-[var(--clay-shadow)] border-none;
 }
 
-.glass {
-    @apply backdrop-blur-[16px] bg-[var(--glass-color)] shadow-[var(--glass-shadow)];
+.button {
+    @apply bg-[#7ca2ff] text-white shadow-[var(--button-shadow)] border-none;
+}
+
+.input-class {
+    @apply shadow-[var(--input-shadow)] rounded-b-4xl focus:shadow-none border-none;
 }
